@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6h0010/T/v1
+canonical_location: https://kanripo.org/bkk/KR6h0010/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 虛空藏菩薩神呪經
+  identifiers:
+    krp: KR6h0010
+    cbeta: T13n0406
+    cbeta_old_id: T13n0406
+    authorityid: CA0003622
+    json_key: T0406
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T13/T13n0406.xml
+    old_id: T13n0406
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6h0010_000-T.yaml, hash: 'sha256:09605a1dad69872037bf7d8f9ce502e1dc3d28b5ba29cd12934b79d05d74c2bc'}
+  - {seq: 1, filename: KR6h0010_001-T.yaml, hash: 'sha256:d67b636651d1aecb750bef203de20a4ea27497d4f38463d0abfb9050fc02305f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6h0010_000-T.markers.yaml, hash: 'sha256:255caa5bfcc5fcf3047ba74dd4f61148f6a533f1a6a66775eca026af06695556'}
+  - {seq: 1, role: markers, filename: assets/KR6h0010_001-T.markers.yaml, hash: 'sha256:c2dd706ab2462f99133a7ff4999a0812efefa76b5c61959c14f3f88d90a0d257'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6h0010_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7840
+  label: 佛說虛空藏菩薩神呪經
+  type: juan
+  level: 1
+hash: sha256:ee7bef7501ace07168bf9dfb88d553a74423eb234f96f36c7a102279d8d45ae1

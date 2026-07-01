@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6h0010/v1
+canonical_location: https://kanripo.org/bkk/KR6h0010/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 虛空藏菩薩神呪經
+  identifiers:
+    alt_id:
+    - T13n0406
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T13/T13n0406.xml
+    old_id: T13n0406
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6h0010_000.yaml, hash: 'sha256:09605a1dad69872037bf7d8f9ce502e1dc3d28b5ba29cd12934b79d05d74c2bc'}
+  - {seq: 1, filename: KR6h0010_001.yaml, hash: 'sha256:9cda9a5d578b0592b1a415198d6ac0dc7ecca940c287915addae0374f5b89dc4'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6h0010_001.markers.yaml, hash: 'sha256:3f1ef103219aecaad0a5972a7e4c69e0bb00af2d046256eb6fd00aab773998f6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6h0010_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7840
+  label: 佛說虛空藏菩薩神呪經
+  type: juan
+  level: 1
+hash: sha256:a14fefbae5fb90bc45391dd0cf80820b31efa0d50c095c27dcac0d48bf6f72d8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
