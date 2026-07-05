@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6h0010_000.yaml, hash: 'sha256:09605a1dad69872037bf7d8f9ce502e1dc3d28b5ba29cd12934b79d05d74c2bc'}
-  - {seq: 1, filename: KR6h0010_001.yaml, hash: 'sha256:9cda9a5d578b0592b1a415198d6ac0dc7ecca940c287915addae0374f5b89dc4'}
+  - {seq: 1, filename: KR6h0010_001.yaml, hash: 'sha256:d67b636651d1aecb750bef203de20a4ea27497d4f38463d0abfb9050fc02305f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6h0010_001.markers.yaml, hash: 'sha256:3f1ef103219aecaad0a5972a7e4c69e0bb00af2d046256eb6fd00aab773998f6'}
+  - {seq: 0, role: markers, filename: assets/KR6h0010_000.markers.yaml, hash: 'sha256:02ac00076fc7f6edafc98fba353179f1510eb8a30be5c6ad3628e819934224da'}
+  - {seq: 1, role: markers, filename: assets/KR6h0010_001.markers.yaml, hash: 'sha256:9368a14836566b5dfd209824ccb2ebb9c2225a6e6ba8745313361254af11d163'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 佛說虛空藏菩薩神呪經
   type: juan
   level: 1
-hash: sha256:a14fefbae5fb90bc45391dd0cf80820b31efa0d50c095c27dcac0d48bf6f72d8
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:78eba41accb5ad1439cdc660c5757c5d8f664eabae88ea385571659851a2a5a8
