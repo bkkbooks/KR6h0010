@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6h0010/v1
 canonical_location: https://kanripo.org/bkk/KR6h0010/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 虛空藏菩薩神呪經
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6h0010_000.yaml, hash: 'sha256:09605a1dad69872037bf7d8f9ce502e1dc3d28b5ba29cd12934b79d05d74c2bc'}
-  - {seq: 1, filename: KR6h0010_001.yaml, hash: 'sha256:d67b636651d1aecb750bef203de20a4ea27497d4f38463d0abfb9050fc02305f'}
+  - {seq: 1, filename: KR6h0010_001.yaml, hash: 'sha256:a3a7893c6d57a0e4a11712432856c773bfac5f05a158537d29232305850249b5'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6h0010_000.markers.yaml, hash: 'sha256:02ac00076fc7f6edafc98fba353179f1510eb8a30be5c6ad3628e819934224da'}
-  - {seq: 1, role: markers, filename: assets/KR6h0010_001.markers.yaml, hash: 'sha256:9368a14836566b5dfd209824ccb2ebb9c2225a6e6ba8745313361254af11d163'}
+  - {seq: 1, role: markers, filename: assets/KR6h0010_001.markers.yaml, hash: 'sha256:92c1894236a4242c15d96557b8486a18471a25a8126e158d2a7ca9e425a8083b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 佛說虛空藏菩薩神呪經
   type: juan
   level: 1
-hash: sha256:78eba41accb5ad1439cdc660c5757c5d8f664eabae88ea385571659851a2a5a8
+hash: sha256:c1c964350f0a6ee246a267e9860659ff6564e4ad50564e12bb425338c12bbd36
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
